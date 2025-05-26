@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/Fonts/Montserrat.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition:all 0.3s ease-in-out;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #101010;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.align_center{
+  display:flex;
+  align-items:center;
+}
+html.no-transition *, html.no-transition *::before, html.no-transition *::after {
+  transition: none !important;
+}
+
